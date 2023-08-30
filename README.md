@@ -12,7 +12,7 @@ This might involve cleaning the data, removing missing values, creating new feat
 
 Once the dataset has been preprocessed and the features have been extracted, a machine learning algorithm can be trained on the labeled data. 
 There are several regression algorithms that can be used for this task, such as linear regression, decision trees, random forests, support vector regression, or ensemble techniques.
-In this project I have used Voting ensemble which uses random forest regressor, gradient boosting regressor, xgboost regressor and extra tree regressor as base learners.
+In this project I have used Random Forest algorithm to predict the prices.
 
 After the model has been trained, it can be evaluated on a separate set of test data to measure its performance. 
 Common performance metrics for regression tasks like laptop price prediction include mean squared error, mean absolute error, and R-squared.
